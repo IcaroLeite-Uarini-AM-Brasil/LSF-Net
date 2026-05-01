@@ -1,0 +1,15 @@
+# Sistema
+*.pyc __pycache__ .DS_Store
+
+# Node
+node_modules
+dist
+
+# Mobile build artifacts
+android/build
+ios/build
+
+# Secrets (não commitar)
+*.env
+mosquitto/config/password.txt
+deployment/certificates/*.key
